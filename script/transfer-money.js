@@ -28,7 +28,7 @@ document
             const balance = convartMainBalance - convartWithdrawAmount;
             document.getElementById("main-balance").innerText = balance;
 
-            historyAdd(withdrawAmount, agentNumber);
+            historyAdd("Money Transfered" ,withdrawAmount, agentNumber);
           } else {
             alert("Invalid PIN");
           }
