@@ -22,5 +22,5 @@ function redirectToMain() {
 // Logout Toggle
 
 document.getElementById("logout").addEventListener("click", function () {
-  window.location.href = "/Payoo-Mobile-App/index.html";
+  window.location.href = "/Payoo-Mobile-App";
 });
