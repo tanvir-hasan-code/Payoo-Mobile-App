@@ -19,8 +19,3 @@ document
 function redirectToMain() {
   window.location.href = "/Payoo-Mobile-App/main.html";
 }
-// Logout Toggle
-
-document.getElementById("logout").addEventListener("click", function () {
-  window.location.href = "/Payoo-Mobile-App";
-});
