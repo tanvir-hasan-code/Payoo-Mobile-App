@@ -5,9 +5,7 @@ document.getElementById("bonusmoney").style.display = "none";
 document.getElementById("paybill").style.display = "none";
 document.getElementById("transactionshistory").style.display = "none";
 
-document.getElementById("logout").addEventListener("click", function () {
-  window.location.href = "../index.html";
-});
+
 
 document.getElementById("add-money").addEventListener("click", function () {
   document.getElementById("featured").style.display = "none";
